@@ -38,11 +38,11 @@
 </a>
 </p>
 
-<summary>Deploy to Koyeb</summary>
+<summary>Deploy To Koyeb</summary>
 <p>
-<br>
-<a href="https://deploy.koyeb.com/deploy?template=https://github.com/ZEUSxCODES/Hamker-bot">
-  <img src="https://deploy.koyeb.com/button.svg" alt="Deploy">
+<br>                 
+<a target="/blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/ZEUSxCODES/Hamker-bot&branch=main&name=Hamker-bot" >
+  <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy">
 </a>
 </p>
 
