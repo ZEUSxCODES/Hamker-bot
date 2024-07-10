@@ -8,5 +8,7 @@ Flask
 gunicorn
 SQLAlchemy
 Jinja2
-werkzeug
+Werkzeug
 itsdangerous
+motor
+pymongo
