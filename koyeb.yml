@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - API_ID=YOUR_API_ID
+      - API_HASH=YOUR_API_HASH
+      - BOT_TOKEN=YOUR_BOT_TOKEN
+      - START_PIC=https://te.legra.ph/file/1f2ac2fe8cdf202799847.jpg
+      - SOURCE_VID=https://te.legra.ph/file/fecf4e578f159374f33c4.mp4
+      - BOT_USERNAME=Bot_Username
+      # Add other environment variables as needed
+    command: sh -c "gunicorn app:app & python3 main.py"
+    volumes:
+      - ./path_to_your_code:/app  # Mount your local code directory into the container
+    ports:
+      - "8080:8080"  # Replace with the port your app listens on
