@@ -1,6 +1,8 @@
-<h1>Hamker Bot</h1>
+<h1 align="center">
+ <b><a href="https://t.me/HamkerBot" target="/blank">Hamker Bot</a></b>
+</h1>
 
-<p>Hamker Bot is a versatile Telegram bot built using Pyrogram, offering various useful commands and functionalities.</p>
+<p align="center">🤖 A Multi-Feature Telegram Bot 🤖</p>
 
 <h2>Features</h2>
 
@@ -20,31 +22,43 @@
 
 <h2>Deploy the Bot</h2>
 
-<h3>Heroku</h3>
+<summary>Deploy to Heroku</summary>
+<p>
+<br>                 
+<a target="/blank" href="https://heroku.com/deploy?template=https://github.com/YOUR_USERNAME/YOUR_REPO" >
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+</p>
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/YOUR_USERNAME/YOUR_REPO"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a></p>
-
-<h3>Koyeb</h3>
-
-<p><a href="https://deploy.koyeb.com/deploy?template=https://github.com/YOUR_USERNAME/YOUR_REPO"><img src="https://deploy.koyeb.com/button.svg" alt="Deploy"></a></p>
+<summary>Deploy to Koyeb</summary>
+<p>
+<br>
+<a href="https://deploy.koyeb.com/deploy?template=https://github.com/YOUR_USERNAME/YOUR_REPO">
+  <img src="https://deploy.koyeb.com/button.svg" alt="Deploy">
+</a>
+</p>
 
 <p>Replace <code>YOUR_USERNAME</code> and <code>YOUR_REPO</code> with your GitHub username and repository name respectively.</p>
 
-<h2>Usage</h2>
+<h2>Features</h2>
 
-<ol>
-  <li>Configure the bot by updating <code>config.py</code> with your API credentials and bot token:</li>
-</ol>
-
-<pre><code>api_id = "YOUR_API_ID"
-api_hash = "YOUR_API_HASH"
-bot_token = "YOUR_BOT_TOKEN"
-START_PIC = "https://te.legra.ph/file/1f2ac2fe8cdf202799847.jpg"
-</code></pre>
+<ul>
+  <li>Mark yourself as AFK with <code>/afk</code>.</li>
+  <li>Check bot status with <code>/alive</code>.</li>
+  <li>Repeat text with <code>/echo</code>.</li>
+  <li>Generate ASCII art with <code>/figlet</code>.</li>
+  <li>Get info about images with <code>/img</code>.</li>
+  <li>Generate placeholder logos with <code>/phlogo</code> (under construction).</li>
+  <li>Check bot latency with <code>/ping</code>.</li>
+  <li>Quote messages with <code>/q</code>.</li>
+  <li>Shorten URLs with <code>/shorturl</code>.</li>
+  <li>Decode names with <code>/sname</code>.</li>
+  <li>Capture website screenshots with <code>/webss</code>.</li>
+</ul>
 
 <h2>Support</h2>
 
-<p>For issues, bugs, or suggestions, please <a href="[https://github.com//YOUR_REPO](https://github.com/ZEUSxCODES/Hamker-bot)/issues/new">open an issue</a>.</p>
+<p>For issues, bugs, or suggestions, please <a href="https://github.com/YOUR_USERNAME/YOUR_REPO/issues/new">open an issue</a>.</p>
 
 <h2>License</h2>
 
