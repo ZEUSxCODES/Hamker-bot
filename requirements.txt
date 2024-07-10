@@ -4,3 +4,9 @@ requests
 pillow
 pyfiglet
 aiohttp
+Flask
+gunicorn
+SQLAlchemy
+Jinja2
+werkzeug
+itsdangerous
